@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,12 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				yatra: {
+					'saffron': '#FF7722',
+					'blue': '#1A3A6A',
+					'green': '#4CAF50',
+					'stone': '#E8E2D6',
 				}
 			},
 			borderRadius: {
@@ -84,11 +91,19 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'float': {
+					'0%, 100%': { transform: 'translateY(0)' },
+					'50%': { transform: 'translateY(-10px)' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'float': 'float 4s ease-in-out infinite'
+			},
+			backgroundImage: {
+				'hero-pattern': "url('/images/hero-bg.jpg')",
 			}
 		}
 	},
