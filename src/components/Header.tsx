@@ -12,15 +12,12 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2">
-            <Link href="/" className="flex-shrink-0">
-            <Image
-              src="https://github.com/holyyatra/holyatraweb/blob/main/logohy.png?raw=true"
-              alt="Holy Yatra Logo"
-              width={180}
-              height={50}
-              className="h-12 w-auto"
-            />
-          </Link>
+            <div className="w-10 h-10 bg-yatra-saffron rounded-md flex items-center justify-center">
+               <span className="text-white font-bold text-xl">HolYatra</span>
+             </div>
+             <span className="text-xl md:text-2xl font-bold text-yatra-blue">
+               Holy<span className="text-yatra-saffron">Yatra</span>
+             </span>
           </Link>
 
           {/* Desktop Navigation */}
