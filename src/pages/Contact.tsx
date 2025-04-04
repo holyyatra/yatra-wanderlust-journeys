@@ -102,7 +102,7 @@ const Contact = () => {
                     <div>
                       <h3 className="font-semibold text-gray-800 mb-2">Our Location</h3>
                       <p className="text-gray-600">
-                        123 Pilgrimage Road, Rishikesh,<br />
+                         Rishikesh,<br />
                         Uttarakhand, India - 249201
                       </p>
                     </div>
