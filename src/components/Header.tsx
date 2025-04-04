@@ -23,20 +23,17 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             <Link to="/" className="font-medium text-gray-700 hover:text-yatra-saffron transition-colors">Home</Link>
-            <Link to="/about" className="font-medium text-gray-700 hover:text-yatra-saffron transition-colors">About</Link>
             <Link to="/packages" className="font-medium text-gray-700 hover:text-yatra-saffron transition-colors">Packages</Link>
             <Link to="/contact" className="font-medium text-gray-700 hover:text-yatra-saffron transition-colors">Contact</Link>
           </nav>
 
           <div className="hidden md:flex items-center space-x-4">
             <a 
-              href="https://wa.me/919XXXXXXXX?text=I'm%20interested%20in%20your%20Holy%20Yatra%20packages" 
-              target="_blank" 
-              rel="noopener noreferrer"
+              href="tel:+918757794679" 
               className="flex items-center text-yatra-blue hover:text-yatra-saffron transition-colors"
             >
               <Phone size={18} className="mr-2" />
-              <span className="font-medium">+91 9XXXXXXXX</span>
+              <span className="font-medium">+91 8757794679</span>
             </a>
             <Button className="btn-primary">Book Now</Button>
           </div>
@@ -64,13 +61,6 @@ const Header = () => {
                 Home
               </Link>
               <Link 
-                to="/about"
-                className="font-medium text-gray-700 hover:text-yatra-saffron transition-colors"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                About
-              </Link>
-              <Link 
                 to="/packages"
                 className="font-medium text-gray-700 hover:text-yatra-saffron transition-colors"
                 onClick={() => setIsMenuOpen(false)}
@@ -86,13 +76,11 @@ const Header = () => {
               </Link>
               <div className="flex flex-col space-y-3 pt-4 border-t">
                 <a 
-                  href="https://wa.me/919XXXXXXXX?text=I'm%20interested%20in%20your%20Holy%20Yatra%20packages" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
+                  href="tel:+918757794679" 
                   className="flex items-center text-yatra-blue hover:text-yatra-saffron transition-colors"
                 >
                   <Phone size={18} className="mr-2" />
-                  <span className="font-medium">+91 9XXXXXXXX</span>
+                  <span className="font-medium">+91 8757794679</span>
                 </a>
                 <Button className="btn-primary w-full">Book Now</Button>
               </div>

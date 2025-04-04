@@ -29,11 +29,7 @@ const packages: PackageDetails[] = [
     title: "Helicopter Yatra - Rishikesh to Kedarnath",
     subtitle: "Quick Divine Darshan by Air",
     image: "https://ext.same-assets.com/42986993/4287053519.jpeg",
-    gallery: [
-      "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
-      "https://images.unsplash.com/photo-1472396961693-142e6e269027?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
-      "https://images.unsplash.com/photo-1466442929976-97f336a657be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80"
-    ],
+    gallery: [],
     duration: "1-2 Days",
     location: "Rishikesh to Kedarnath",
     description: "Experience the divine journey to Kedarnath in a luxurious and time-saving helicopter ride from Rishikesh. Perfect for pilgrims with limited time.",
@@ -77,12 +73,8 @@ const packages: PackageDetails[] = [
     id: "haridwar-kedarnath",
     title: "Haridwar to Kedarnath Yatra",
     subtitle: "A Complete Pilgrimage Experience",
-    image: "https://ext.same-assets.com/42986993/3124839909.jpeg",
-    gallery: [
-      "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
-      "https://images.unsplash.com/photo-1472396961693-142e6e269027?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
-      "https://images.unsplash.com/photo-1466442929976-97f336a657be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80"
-    ],
+    image: "https://ext.same-assets.com/42986993/96132912.jpeg",
+    gallery: [],
     duration: "5 Days / 4 Nights",
     location: "Haridwar, Rishikesh, Guptkashi, Kedarnath",
     description: "Embark on a spiritual journey from the holy city of Haridwar to the divine Kedarnath Temple with comfortable accommodations and guided trek.",

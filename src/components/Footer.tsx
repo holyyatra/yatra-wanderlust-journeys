@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="bg-yatra-blue text-white pt-16 pb-8">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Company Info */}
           <div>
             <div className="flex items-center space-x-2 mb-6">
@@ -43,9 +43,6 @@ const Footer = () => {
                 <Link to="/" className="text-gray-300 hover:text-white transition-colors">Home</Link>
               </li>
               <li>
-                <Link to="/about" className="text-gray-300 hover:text-white transition-colors">About Us</Link>
-              </li>
-              <li>
                 <Link to="/packages" className="text-gray-300 hover:text-white transition-colors">Packages</Link>
               </li>
               <li>
@@ -53,33 +50,6 @@ const Footer = () => {
               </li>
               <li>
                 <Link to="/contact" className="text-gray-300 hover:text-white transition-colors">Contact</Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Tour Packages */}
-          <div>
-            <h3 className="text-lg font-semibold mb-6 text-white">Tour Packages</h3>
-            <ul className="space-y-3">
-              <li>
-                <Link to="/package/helicopter-kedarnath" className="text-gray-300 hover:text-white transition-colors">
-                  Helicopter Yatra - Rishikesh to Kedarnath
-                </Link>
-              </li>
-              <li>
-                <Link to="/package/haridwar-kedarnath" className="text-gray-300 hover:text-white transition-colors">
-                  Haridwar to Kedarnath
-                </Link>
-              </li>
-              <li>
-                <Link to="/package/char-dham" className="text-gray-300 hover:text-white transition-colors">
-                  Char Dham Yatra
-                </Link>
-              </li>
-              <li>
-                <Link to="/package/kedarnath-badrinath" className="text-gray-300 hover:text-white transition-colors">
-                  Kedarnath & Badrinath
-                </Link>
               </li>
             </ul>
           </div>
@@ -96,8 +66,8 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <Phone size={20} className="mr-3 text-yatra-saffron" />
-                <a href="tel:+919XXXXXXXX" className="text-gray-300 hover:text-white transition-colors">
-                  +91 9XXXXXXXX
+                <a href="tel:+918757794679" className="text-gray-300 hover:text-white transition-colors">
+                  +91 8757794679
                 </a>
               </li>
               <li className="flex items-center">

@@ -197,7 +197,7 @@ const PackageDetail = () => {
                 <p className="text-red-600 font-bold mb-6">Limited Time Seasonal Discount!</p>
                 
                 <a 
-                  href={`https://wa.me/918757794679?text=I'm%20interested%20in%20your%20${encodeURIComponent(packageData.title)}%20package.%20Can%20you%20provide%20more%20details?`} 
+                  href={`https://wa.me/+918757794679?text=I'm%20interested%20in%20your%20${encodeURIComponent(packageData.title)}%20package.%20Can%20you%20provide%20more%20details?`} 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="block w-full"

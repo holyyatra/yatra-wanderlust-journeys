@@ -8,7 +8,7 @@ interface WhatsAppCTAProps {
 
 const WhatsAppCTA: React.FC<WhatsAppCTAProps> = ({ packageName = "your packages" }) => {
   const encodedMessage = encodeURIComponent(`I'm interested in ${packageName}. Can you provide more details?`);
-  const whatsappUrl = `https://wa.me/918757794679?text=${encodedMessage}`;
+  const whatsappUrl = `https://wa.me/+918757794679?text=${encodedMessage}`;
   
   return (
     <div className="bg-gradient-to-r from-green-50 to-green-100 rounded-xl p-6 md:p-8 shadow-sm border border-green-200">
