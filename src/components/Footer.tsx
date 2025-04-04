@@ -11,12 +11,13 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center space-x-2 mb-6">
-              <div className="w-10 h-10 bg-yatra-saffron rounded-md flex items-center justify-center">
-                <span className="text-white font-bold text-xl">Y</span>
-              </div>
-              <span className="text-xl font-bold text-white">
-                Holy<span className="text-yatra-saffron">Yatra</span>
-              </span>
+              <Image
+              src="https://github.com/holyyatra/holyatraweb/blob/main/logohy.png?raw=true"
+              alt="Holy Yatra Logo"
+              width={150}
+              height={40}
+              className="h-10 w-auto"
+            />
             </div>
             <p className="mb-6 text-gray-300">
               Providing spiritual journeys to sacred destinations in the Himalayas.
@@ -61,7 +62,7 @@ const Footer = () => {
               <li className="flex items-start">
                 <MapPin size={20} className="mr-3 text-yatra-saffron mt-1" />
                 <span className="text-gray-300">
-                  123 Pilgrimage Road, Rishikesh, Uttarakhand, India - 249201
+                  Rishikesh, Uttarakhand, India - 249201
                 </span>
               </li>
               <li className="flex items-center">
