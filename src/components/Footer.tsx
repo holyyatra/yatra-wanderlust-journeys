@@ -11,12 +11,15 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center space-x-2 mb-6">
-              <Image
+              <Link href="/" className="flex-shrink-0">
+            <Image
               src="https://github.com/holyyatra/holyatraweb/blob/main/logohy.png?raw=true"
               alt="Holy Yatra Logo"
-              
-              className="h-10 w-auto"
+              width={180}
+              height={50}
+              className="h-12 w-auto"
             />
+          </Link>
             </div>
             <p className="mb-6 text-gray-300">
               Providing spiritual journeys to sacred destinations in the Himalayas.
