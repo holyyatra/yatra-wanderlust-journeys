@@ -7,7 +7,7 @@ import WhatsAppCTA from '@/components/WhatsAppCTA';
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { Calendar, Clock, MapPin, DollarSign, Check, X, Camera, Info } from 'lucide-react';
+import { Calendar, Clock, MapPin, DollarSign, Check, X, Info } from 'lucide-react';
 import packages from '@/data/packages';
 import { useNavigate } from 'react-router-dom';
 
@@ -90,11 +90,10 @@ const PackageDetail = () => {
             {/* Main Content */}
             <div className="lg:col-span-2">
               <Tabs defaultValue="overview">
-                <TabsList className="w-full grid grid-cols-4 mb-6">
+                <TabsList className="w-full grid grid-cols-3 mb-6">
                   <TabsTrigger value="overview">Overview</TabsTrigger>
                   <TabsTrigger value="itinerary">Itinerary</TabsTrigger>
                   <TabsTrigger value="inclusions">Inclusions</TabsTrigger>
-                  <TabsTrigger value="gallery">Gallery</TabsTrigger>
                 </TabsList>
                 
                 <TabsContent value="overview" className="p-6 bg-white rounded-lg shadow-sm border">
@@ -176,24 +175,6 @@ const PackageDetail = () => {
                         ))}
                       </ul>
                     </div>
-                  </div>
-                </TabsContent>
-                
-                <TabsContent value="gallery" className="p-6 bg-white rounded-lg shadow-sm border">
-                  <h3 className="text-2xl font-bold text-yatra-blue mb-4 flex items-center">
-                    <Camera size={24} className="mr-2 text-yatra-blue" /> 
-                    Photo Gallery
-                  </h3>
-                  
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    {packageData.gallery.map((image, index) => (
-                      <img 
-                        key={index}
-                        src={image} 
-                        alt={`${packageData.title} - Image ${index + 1}`} 
-                        className="w-full h-64 object-cover rounded-lg"
-                      />
-                    ))}
                   </div>
                 </TabsContent>
               </Tabs>
