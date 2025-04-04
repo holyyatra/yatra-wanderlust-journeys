@@ -6,6 +6,13 @@ import { Link } from 'react-router-dom';
 const Hero = () => {
   return (
     <div className="relative min-h-[85vh] flex items-center overflow-hidden">
+      {/* Seasonal Discount Banner */}
+      <div className="absolute top-0 left-0 right-0 bg-red-600 text-white py-3 z-20">
+        <div className="container mx-auto px-4 text-center">
+          <p className="font-bold text-lg animate-pulse">🔥 SEASONAL DISCOUNT! 🔥 All packages now at ₹2,500-₹3,000 only! Limited time offer!</p>
+        </div>
+      </div>
+      
       {/* Background Image with Overlay */}
       <div 
         className="absolute inset-0 bg-cover bg-center z-0"
@@ -17,7 +24,7 @@ const Hero = () => {
       </div>
 
       {/* Content */}
-      <div className="container mx-auto px-4 z-10 relative py-16 md:py-0">
+      <div className="container mx-auto px-4 z-10 relative py-16 md:py-0 mt-10">
         <div className="max-w-xl">
           <span className="bg-yatra-saffron/20 text-yatra-saffron px-4 py-1 rounded-full text-sm font-medium mb-6 inline-block">
             Experience Divine Journey

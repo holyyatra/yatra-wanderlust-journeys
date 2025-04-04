@@ -1,4 +1,3 @@
-
 export interface PackageItinerary {
   day: number;
   title: string;
@@ -29,7 +28,7 @@ const packages: PackageDetails[] = [
     id: "helicopter-kedarnath",
     title: "Helicopter Yatra - Rishikesh to Kedarnath",
     subtitle: "Quick Divine Darshan by Air",
-    image: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
+    image: "https://ext.same-assets.com/42986993/4287053519.jpeg",
     gallery: [
       "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
       "https://images.unsplash.com/photo-1472396961693-142e6e269027?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
@@ -39,7 +38,7 @@ const packages: PackageDetails[] = [
     location: "Rishikesh to Kedarnath",
     description: "Experience the divine journey to Kedarnath in a luxurious and time-saving helicopter ride from Rishikesh. Perfect for pilgrims with limited time.",
     overview: "This exclusive helicopter package offers a quick and comfortable journey to the sacred Kedarnath temple, one of the twelve Jyotirlingas of Lord Shiva. Skip the arduous trek and fly directly to this divine destination nestled in the Himalayan peaks. Our helicopter service from Rishikesh provides a breathtaking aerial view of the beautiful Himalayan landscape while ensuring a hassle-free pilgrimage experience.",
-    price: "₹35,000 per person",
+    price: "₹2,999 per person",
     inclusions: [
       "Return helicopter tickets from Rishikesh to Kedarnath",
       "VIP Darshan at Kedarnath Temple",
@@ -78,7 +77,7 @@ const packages: PackageDetails[] = [
     id: "haridwar-kedarnath",
     title: "Haridwar to Kedarnath Yatra",
     subtitle: "A Complete Pilgrimage Experience",
-    image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
+    image: "https://ext.same-assets.com/42986993/3124839909.jpeg",
     gallery: [
       "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
       "https://images.unsplash.com/photo-1472396961693-142e6e269027?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
@@ -88,7 +87,7 @@ const packages: PackageDetails[] = [
     location: "Haridwar, Rishikesh, Guptkashi, Kedarnath",
     description: "Embark on a spiritual journey from the holy city of Haridwar to the divine Kedarnath Temple with comfortable accommodations and guided trek.",
     overview: "This comprehensive 5-day package takes you from the sacred city of Haridwar to the divine abode of Lord Shiva at Kedarnath. Experience the spiritual energy of multiple holy sites along the way, including Rishikesh and Guptkashi. Our package includes comfortable accommodations, transportation, guided trek to Kedarnath, and all necessary arrangements for a smooth pilgrimage experience. Immerse yourself in the divine atmosphere and return with blessed memories.",
-    price: "₹15,999 per person",
+    price: "₹2,899 per person",
     inclusions: [
       "4 nights accommodation in hotels/guesthouses",
       "All meals (breakfast, lunch, dinner)",
@@ -155,7 +154,7 @@ const packages: PackageDetails[] = [
     id: "char-dham",
     title: "Char Dham Yatra",
     subtitle: "Complete Sacred Circuit of Four Dhams",
-    image: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
+    image: "https://ext.same-assets.com/42986993/2663070483.jpeg",
     gallery: [
       "https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
       "https://images.unsplash.com/photo-1472396961693-142e6e269027?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
@@ -165,7 +164,7 @@ const packages: PackageDetails[] = [
     location: "Yamunotri, Gangotri, Kedarnath, Badrinath",
     description: "The complete spiritual journey covering all four sacred sites of Yamunotri, Gangotri, Kedarnath, and Badrinath in one comprehensive package.",
     overview: "Embark on the ultimate Hindu pilgrimage with our complete Char Dham Yatra package. Visit the four sacred sites of Yamunotri, Gangotri, Kedarnath, and Badrinath in a single journey. Our meticulously planned 12-day itinerary ensures you experience the spiritual significance of each temple while enjoying comfortable accommodations, transportation, and expert guidance throughout. This holistic journey through the divine Himalayan shrines is believed to cleanse all sins and lead to salvation.",
-    price: "₹45,999 per person",
+    price: "₹2,999 per person",
     inclusions: [
       "11 nights accommodation in hotels/guesthouses",
       "All meals (breakfast, lunch, dinner)",
@@ -281,17 +280,17 @@ const packages: PackageDetails[] = [
     id: "kedarnath-badrinath",
     title: "Kedarnath & Badrinath Yatra",
     subtitle: "Journey to Lord Shiva & Lord Vishnu's Abodes",
-    image: "https://images.unsplash.com/photo-1472396961693-142e6e269027?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
+    image: "https://ext.same-assets.com/42986993/273543150.jpeg",
     gallery: [
+      "https://images.unsplash.com/photo-1472396961693-142e6e269027?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
       "https://images.unsplash.com/photo-1466442929976-97f336a657be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
-      "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80",
       "https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1080&q=80"
     ],
     duration: "7 Days / 6 Nights",
     location: "Haridwar, Rishikesh, Guptkashi, Kedarnath, Badrinath",
     description: "Combined pilgrimage to the sacred shrines of Kedarnath and Badrinath, the abodes of Lord Shiva and Lord Vishnu in the majestic Himalayas.",
     overview: "This spiritually enriching 7-day package combines visits to two of the most revered temples in Hinduism - Kedarnath, dedicated to Lord Shiva, and Badrinath, dedicated to Lord Vishnu. Journey through the breathtaking Himalayan landscapes, experience the divine energy of these ancient shrines, and participate in authentic rituals guided by experienced priests. Our package includes comfortable accommodations, transportation, guided treks, and all necessary arrangements for a seamless pilgrimage experience.",
-    price: "₹25,999 per person",
+    price: "₹2,699 per person",
     inclusions: [
       "6 nights accommodation in hotels/guesthouses",
       "All meals (breakfast, lunch, dinner)",

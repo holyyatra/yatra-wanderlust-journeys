@@ -30,8 +30,11 @@ const PackageCard: React.FC<PackageCardProps> = ({
           alt={title} 
           className="w-full h-56 object-cover transition-transform duration-500 group-hover:scale-110"
         />
-        <div className="absolute top-4 right-4 bg-yatra-saffron text-white px-3 py-1 rounded-full text-sm font-medium">
+        <div className="absolute top-4 right-4 bg-red-600 text-white px-3 py-1 rounded-full text-sm font-medium animate-pulse">
           {price}
+        </div>
+        <div className="absolute top-4 left-4 bg-green-600 text-white px-3 py-1 rounded-full text-sm font-medium">
+          SALE!
         </div>
       </div>
       

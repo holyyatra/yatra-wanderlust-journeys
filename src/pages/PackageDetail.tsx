@@ -46,6 +46,13 @@ const PackageDetail = () => {
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
           </div>
           
+          {/* Discount Badge */}
+          <div className="absolute top-4 right-4 z-20">
+            <div className="bg-red-600 text-white px-4 py-2 rounded-lg font-bold shadow-lg animate-pulse">
+              Special Discount!
+            </div>
+          </div>
+          
           <div className="container mx-auto px-4 h-full flex items-end pb-16 relative z-10">
             <div>
               <div className="flex flex-wrap items-center gap-2 mb-4">
@@ -201,11 +208,15 @@ const PackageDetail = () => {
             <div>
               <div className="bg-white rounded-lg shadow-sm border p-6 sticky top-24">
                 <h3 className="text-xl font-bold text-yatra-blue mb-4">Book This Package</h3>
-                <p className="text-3xl font-bold text-yatra-saffron mb-2">{packageData.price}</p>
-                <p className="text-gray-500 mb-6">per person</p>
+                <div className="flex items-center mb-2">
+                  <p className="text-3xl font-bold text-yatra-saffron">{packageData.price}</p>
+                  <span className="ml-3 line-through text-gray-400">₹45,999</span>
+                </div>
+                <p className="text-gray-500 mb-2">per person</p>
+                <p className="text-red-600 font-bold mb-6">Limited Time Seasonal Discount!</p>
                 
                 <a 
-                  href={`https://wa.me/919XXXXXXXX?text=I'm%20interested%20in%20your%20${encodeURIComponent(packageData.title)}%20package.%20Can%20you%20provide%20more%20details?`} 
+                  href={`https://wa.me/918757794679?text=I'm%20interested%20in%20your%20${encodeURIComponent(packageData.title)}%20package.%20Can%20you%20provide%20more%20details?`} 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="block w-full"
@@ -254,7 +265,7 @@ const PackageDetail = () => {
                       <p className="text-gray-600 text-sm mb-2">
                         Contact our travel experts for any questions about this package.
                       </p>
-                      <p className="font-medium text-gray-800">+91 9XXXXXXXX</p>
+                      <p className="font-medium text-gray-800">+91 8757794679</p>
                     </div>
                   </div>
                 </div>
