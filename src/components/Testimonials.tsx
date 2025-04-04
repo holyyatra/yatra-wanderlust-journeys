@@ -35,7 +35,7 @@ const testimonials: TestimonialProps[] = [
   }
 ];
 
-const Testimonial: React.FC<TestimonialProps> = ({ quote, name, title, rating, image }) => {
+const Testimonial: React.FC<TestimonialProps> = ({ quote, name, title, rating }) => {
   return (
     <Card className="h-full bg-white border-none shadow-lg hover:shadow-xl transition-shadow">
       <CardContent className="p-6">
