@@ -15,8 +15,7 @@ const Header = () => {
             <Image
               src="https://github.com/holyyatra/holyatraweb/blob/main/logohy.png?raw=true"
               alt="Holy Yatra Logo"
-              width={150}
-              height={40}
+              
               className="h-10 w-auto"
             />
           </Link>
