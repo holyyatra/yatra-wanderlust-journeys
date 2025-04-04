@@ -8,7 +8,7 @@ interface TestimonialProps {
   name: string;
   title: string;
   rating: number;
-  image: string;
+  
 }
 
 const testimonials: TestimonialProps[] = [
@@ -17,21 +17,21 @@ const testimonials: TestimonialProps[] = [
     name: "Rajesh Sharma",
     title: "Delhi",
     rating: 5,
-    image: "https://randomuser.me/api/portraits/men/32.jpg"
+    
   },
   {
     quote: "Our Char Dham Yatra with Holy Yatra was meticulously planned. The guides were knowledgeable and accommodations were comfortable.",
     name: "Priya Patel",
     title: "Mumbai",
     rating: 5,
-    image: "https://randomuser.me/api/portraits/women/44.jpg"
+    
   },
   {
     quote: "The Kedarnath and Badrinath package was perfect for our family. The team was responsive and took care of all our needs during the journey.",
     name: "Amit Singh",
     title: "Bangalore",
     rating: 4,
-    image: "https://randomuser.me/api/portraits/men/62.jpg"
+    
   }
 ];
 
@@ -40,7 +40,7 @@ const Testimonial: React.FC<TestimonialProps> = ({ quote, name, title, rating, i
     <Card className="h-full bg-white border-none shadow-lg hover:shadow-xl transition-shadow">
       <CardContent className="p-6">
         <div className="flex gap-4 items-start mb-4">
-          <img src={image} alt={name} className="w-14 h-14 rounded-full object-cover" />
+          
           <div>
             <h4 className="font-semibold text-gray-800">{name}</h4>
             <p className="text-gray-500 text-sm">{title}</p>
